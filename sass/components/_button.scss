@@ -1,3 +1,29 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the button component.
 // -----------------------------------------------------------------------------
+.btn {
+    display: flex;
+    padding: 2rem;
+    color: #f7f7f7;
+    font-size: 1.5rem;
+    font-weight: 900;
+    transition: all .5s;
+}
+
+.info-btns {
+    display: flex;
+}
+
+.discover-btn {
+    background-color: #a4a4a4;
+}
+
+.cart-btn {
+    background-color: #141110;
+}
+
+.discover-btn:hover,
+.cart-btn:hover {
+    box-shadow: 3px 1rem 2rem rgba(0,0,0,0.3);
+    transform: translateY(-1rem);
+}

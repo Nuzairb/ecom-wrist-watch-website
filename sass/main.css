@@ -679,7 +679,7 @@ nav .nav-right i:first-child {
   width: 75%;
   position: absolute;
   top: 50%;
-  left: -20rem;
+  left: -15rem;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
 }
@@ -721,5 +721,39 @@ nav .nav-right i:first-child {
 .main .product-info h2 {
   font-size: 2.5rem;
   margin-bottom: 5rem;
+}
+
+.btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 2rem;
+  color: #f7f7f7;
+  font-size: 1.5rem;
+  font-weight: 900;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.info-btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.discover-btn {
+  background-color: #a4a4a4;
+}
+
+.cart-btn {
+  background-color: #141110;
+}
+
+.discover-btn:hover,
+.cart-btn:hover {
+  -webkit-box-shadow: 3px 1rem 2rem rgba(0, 0, 0, 0.3);
+          box-shadow: 3px 1rem 2rem rgba(0, 0, 0, 0.3);
+  -webkit-transform: translateY(-1rem);
+          transform: translateY(-1rem);
 }
 /*# sourceMappingURL=main.css.map */
