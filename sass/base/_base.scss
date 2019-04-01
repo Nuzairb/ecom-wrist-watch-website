@@ -7,6 +7,9 @@
  */
 html {
   box-sizing: border-box;
+  font-family: "Roboto Lt", sans-serif;
+  font-size: 10px;
+  color: #333;
 }
 
 /**
@@ -27,11 +30,6 @@ html {
  * Basic styles for links
  */
 a {
-  color: $brand-color;
   text-decoration: none;
-
-  @include on-event {
-    color: $text-color;
-    text-decoration: underline;
-  }
+  color: #000;
 }
