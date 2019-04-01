@@ -619,5 +619,31 @@ nav ul {
 nav ul li {
   padding: 0 3rem;
   line-height: 8rem;
+  -webkit-transition: background-color .5s;
+  transition: background-color .5s;
+}
+
+nav ul li:hover {
+  background-color: rgba(0, 0, 0, 0.075);
+}
+
+nav .nav-right ul li {
+  border-right: 1px solid rgba(0, 0, 0, 0.075);
+}
+
+nav .nav-right ul li:nth-child(1) {
+  border-left: 1px solid rgba(0, 0, 0, 0.075);
+}
+
+nav .nav-right ul li:last-child {
+  border-right: none;
+}
+
+nav .nav-right i {
+  margin-right: 1rem;
+}
+
+nav .nav-right i:first-child {
+  margin-right: 0;
 }
 /*# sourceMappingURL=main.css.map */

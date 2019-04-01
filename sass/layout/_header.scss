@@ -35,7 +35,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid rgba(0,0,0,0.075);
+    border-bottom: 1px solid rgba(0,0,0,.075);
     z-index: 1000;
     .logo {
         width: 5rem;
@@ -50,6 +50,29 @@ nav {
         li {
             padding: 0 3rem;
             line-height: 8rem;
+            transition: background-color .5s;
+        }
+        li:hover {
+            background-color: rgba(0,0,0,.075);
+        }
+    }
+    .nav-right {
+        ul {
+            li {
+                border-right: 1px solid rgba(0,0,0,.075);
+            }
+            li:nth-child(1) {
+                border-left: 1px solid rgba(0,0,0,.075);
+            }
+            li:last-child {
+                border-right: none;
+            }
+        }
+        i {
+            margin-right: 1rem;
+        }
+        i:first-child {
+            margin-right: 0;
         }
     }
 }
