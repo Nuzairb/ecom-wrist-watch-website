@@ -76,3 +76,58 @@ nav {
         }
     }
 }
+
+.main {
+    position: absolute;
+    display: flex;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    .tone-1 {
+        background: #f7f7f7;
+        height: 100vh;
+        flex: 1;
+    }
+    .tone-2 {
+        background-color: #f9e2ba;
+        height: 100vh;
+        flex: 1;
+        position: relative;
+
+        img {
+            width: 75%;
+            position: absolute;
+            top: 50%;
+            left: -20rem;
+            transform: translateY(-50%);
+        }
+    }
+    .product-info {
+        display: flex;
+        width: 90%;
+        height: 100%;
+        margin: 0 auto;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        h1 {
+            font-size: 8rem;
+            font-family: fantasy;
+            letter-spacing: 3px;
+            margin-right: -3px;
+            font-weight: 100;
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+        p {
+            font-size: 1.8rem;
+            margin-bottom: 4rem;
+        }
+        h2 {
+            font-size: 2.5rem;
+            margin-bottom: 5rem;
+        }
+    }
+}
